@@ -14,7 +14,7 @@ header_pages:
 minima:
   skin: dark
 
-theme: minima
+remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
