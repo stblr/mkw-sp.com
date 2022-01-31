@@ -18,4 +18,4 @@ You need a homebrewed Wii (any variant) or vWii with [Riivolution](https://riivo
 
 ### On Dolphin
 
-You need Dolphin 5.0-15445 or later. Extract the MKW-SP zip to the `Load/Directory` directory in your Dolphin folder.
+You need Dolphin 5.0-15445 or later. Extract the MKW-SP zip to the `Load/Riivolution` directory in your Dolphin folder.
