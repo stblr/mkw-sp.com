@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Announcing Mario Kart Wii - Support Package (MKW-SP)"
+title:  "Announcing Mario Kart Wii - Service Pack (MKW-SP)"
 date:   2022-01-30 21:00:00 +0100
 author: stebler
 ---
 
-Today I'm happy to announce that Mario Kart Wii - Support Page (MKW-SP), a new MKW mod that aims to provide various features and quality of life improvements across most gamemodes, has reached version 0.1, its first public release. In this blog post I will first explain my general goals and vision with MKW-SP, and then present a few highlights of version 0.1 which focuses on time trial replays.
+Today I'm happy to announce that Mario Kart Wii - Service Pack (MKW-SP), a new MKW mod that aims to provide various features and quality of life improvements across most gamemodes, has reached version 0.1, its first public release. In this blog post I will first explain my general goals and vision with MKW-SP, and then present a few highlights of version 0.1 which focuses on time trial replays.
 
 ## Goals
 
