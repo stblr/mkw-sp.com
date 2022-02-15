@@ -56,8 +56,6 @@ _Time trial rule._ Transparency can be disabled for all, focused only or no ghos
 
 ## Limitations and known bugs
 
-The name of ghost files can be at most 12 characters. This will not be fixed.
-
 Ghost solidity is off by one frame when switching. See [issue 44](https://github.com/stblr/mkw-sp/issues/44).
 
 VS and battle settings aren't saved. See [issue 50](https://github.com/stblr/mkw-sp/issues/50).
