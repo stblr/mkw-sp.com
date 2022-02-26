@@ -15,11 +15,17 @@ It is possible to race against or watch up to [11 ghosts at once](/assets/11-gho
 **Tag Limit Increase** [stebler]<br />
 Up to 12 tags can be shown at once (from 3 in the vanilla game).
 
-**Speedometer** [stebler]<br />
-The speed of the player is shown in the HUD, including [moving road](/assets/som-moving-road.png) and [moving water](/assets/som-moving-water.png). Split-screen [is supported](/assets/som-split-screen.png).
+**Speedometer** [stebler, Syara]<br />
+The speed of the player is shown in the HUD, including [moving road](/assets/som-moving-road.png) and [moving water](/assets/som-moving-water.png). Split-screen [is supported](/assets/som-split-screen.png). The "SPEED" label has been translated into 4 languages.
 
 **Additional Ghost Metadata** [stebler, Chadderz, MrBean35000vr, CLF78]<br />
 The sha-1 of the track, whether 200cc was enabled, more precise finish times and detected glitches are saved at the end of the ghost file. The first two properties are used to only show ghosts for the correct track and engine class. The equivalent fields can be read from CTGP ghosts for the same purpose. The sha-1 computation doesn't take \_Dif files into account, allowing for e.g. custom textures.
+
+**Pause Menu Improvements** [riidefi, stebler]<br />
+Additional buttons have been added to the pause menus, notably one to change the settings and another to go back directly to the ghost selection.
+
+**Translations** [MK Translation Project, stebler]<br />
+All languages (plus Dutch) are supported in all versions of the game. Some of the MKW-SP-specific strings are also translated.
 
 **My Stuff Folder**<br />
 Allows for file replacements such as custom tracks, custom music and so on. For tracks and UI files, it is possible to replace only certain U8 subfiles by adding the \_Dif suffix to the archive name (e.g. koopa\_course\_Dif.szs or MenuSingle\_E\_Dif.szs).
@@ -39,6 +45,12 @@ _License setting._ The wider 4:3 field-of-view is used in 16:9 mode.
 **Mii Heads On Minimap** [stebler]<br />
 _License setting._ For local players and ghosts, the Mii replaces the character as minimap icon.
 
+**Instant Menu Transitions** [riidefi]<br />
+_License setting._ This allows for much faster navigation.
+
+**Input Display** [riidefi]<br />
+_License setting._ The controller inputs are shown in the HUD. Split-screen and 200cc are supported.
+
 **200cc** [MrBean35000vr]<br />
 _VS and time trial rule._ A speed class with a 1.5x speed multiplier, brake drifting and fast falling.
 
@@ -54,10 +66,13 @@ _Time trial rule._ Ghost tags can be either the Mii name, [finish time](/assets/
 **Solid Ghosts** [stebler]<br />
 _Time trial rule._ Transparency can be disabled for all, focused only or no ghost.
 
+**Ghost Sound** [stebler]<br />
+_Time trial rule._ Sound can be enabled for all, focused only or no ghost.
+
 ## Limitations and known bugs
 
 Ghost solidity is off by one frame when switching. See [issue 44](https://github.com/stblr/mkw-sp/issues/44).
 
 VS and battle settings aren't saved. See [issue 50](https://github.com/stblr/mkw-sp/issues/50).
 
-Most gecko codes won't work because of the different memory map. A warning is shown on the title screen if they are enabled. When memory protection is implemented, support will be dropped altogether.
+ost gecko codes won't work because of the different memory map. A warning is shown on the title screen if they are enabled. When memory protection is implemented, support will be dropped altogether.
