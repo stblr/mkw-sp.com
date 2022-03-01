@@ -9,4 +9,4 @@ Version 0.1.4 of Mario Kart Wii - Service Pack has been released. It's a minor r
 
 ## Bugfix
 
-- CTGP 200cc ghosts set with Baby Peach, Toad, Dry Bones, Mario, Peach, Diddy Kong, Waluigi or Donkey Kong no longer desync when drifting at a low speed. [stebler]
+- CTGP 200cc ghosts set with Baby Peach, Toad, Dry Bones, Mario, Peach, Diddy Kong, Waluigi or Donkey Kong no longer desync when accelerating from a low speed. [stebler]
