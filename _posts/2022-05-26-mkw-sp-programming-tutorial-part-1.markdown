@@ -160,4 +160,4 @@ The Broadway is single core, but Mario Kart Wii uses multithreading a lot. This 
 [^revolution]: Revolution (RVL) is the codename of the Wii.
 [^dolphin]: Dolphin (DOL) is the codename of the GameCube.
 [^ntsc-u]: The NTSC-U version of the StaticR.rel has many weird reorderings for some unknown reason.
-[^dwc]: Maybe Direct Wi-Fi Connection.
+[^dwc]: Likely DS Wireless Communication.
