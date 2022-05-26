@@ -81,7 +81,7 @@ Written in C. Consists of low level code to interact with the Wii's hardware. Re
 
 #### GameSpy SDK
 
-Written in C. Used to access the GameSpy matchmaking servers used by WFC titles, as well as for P2P connections.
+Written in C. Used to access the GameSpy matchmaking servers used by WFC titles, as well as for P2P connections. The code as used in MKW is in large part available [here](https://github.com/riidefi/mkw/tree/master/source/gamespy).
 
 #### DWC[^dwc]
 
