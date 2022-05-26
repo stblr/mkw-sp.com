@@ -137,7 +137,7 @@ At the top level, we have the `SceneManager` (based on EGG). It handles `Scene`s
 
 #### Main loop
 
-The main loop first runs `SceneManager::draw` to send commands to the GPU (in green on the ![performance monitor](/assets/performance-monitor.png)). While the GPU is executing them (in blue), the CPU then runs `SceneManager::calc` (in pink).
+The main loop first runs `SceneManager::draw` to send commands to the GPU (in green on the [performance monitor](/assets/performance-monitor.png)). While the GPU is executing them (in blue), the CPU then runs `SceneManager::calc` (in pink).
 
 #### Subsystems
 
