@@ -45,7 +45,7 @@ The last hardware component worth mentioning: it can read GameCube discs, Wii di
 
 ### Versions
 
-There are 4 versions of the game (in release order): NTSC-J, PAL, NTSC-U and NTSC-K. There are differences between the versions, both for the code and for the assets. The vast majority of research and development by the community happens on the PAL version of the game. Several porting tools are available to translate memory addresses from one version to another.
+There are 4 versions of the game (in release order): NTSC-J, PAL, NTSC-U and NTSC-K (they are often shorted by their differing game id letter, J, P, E and K respectively). There are differences between the versions, both for the code and for the assets. The vast majority of research and development by the community happens on the PAL version of the game. Several porting tools are available to translate memory addresses from one version to another.
 
 ### Apploader
 
