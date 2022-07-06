@@ -6,7 +6,7 @@ permalink: /download/
 
 ## Download
 
-Latest version: [v0.1.4](https://github.com/stblr/mkw-sp/releases/download/v0.1.4/mkw-sp-v0.1.4.zip)
+Latest version: [v0.1.5](https://github.com/stblr/mkw-sp/releases/download/v0.1.5/mkw-sp-v0.1.5.zip)
 
 Previous versions can be found [here](https://github.com/stblr/mkw-sp/releases).
 
@@ -14,8 +14,14 @@ Previous versions can be found [here](https://github.com/stblr/mkw-sp/releases).
 
 ### On console
 
-You need a homebrewed Wii (any variant) or vWii with [Riivolution](https://riivolution.github.io/wiki/Riivolution/). Simply extract the MKW-SP zip to the root of your SD card.
+You need a homebrewed Wii (any variant) or vWii with the Homebrew Channel. Simply extract the MKW-SP zip to the root of your SD card.
+
+If you don't have the Homebrew Channel yet, we recommend:
+
+- [LetterBomb](https://please.hackmii.com/) on Wii
+- [Bluebomb](https://wiibrew.org/wiki/Bluebomb) on Wii mini
+- [Compat Installer](https://wiiubrew.org/wiki/Compat_Installer) on vWii
 
 ### On Dolphin
 
-You need Dolphin 5.0-15445 or later. Extract the MKW-SP zip to the `Load/Riivolution` directory in your Dolphin folder.
+You need a recent version of Dolphin. Simply add the `mkw-sp` folder to one of your game list paths and tick "Search subfolders".
