@@ -173,7 +173,7 @@ We then add the new category, setting and options to `payload/sp/settings/Client
 @@ -13,6 +13,9 @@ enum class Setting {
      InputDisplay,
      RankControl,
-
+ 
 +    // Sound
 +    ItemMusic,
 +
@@ -181,7 +181,7 @@ We then add the new category, setting and options to `payload/sp/settings/Client
      TAClass,
      TAGhostSorting,
 @@ -30,6 +33,7 @@ enum class Setting {
-
+ 
  enum class Category {
      Race,
 +    Sound,
@@ -191,7 +191,7 @@ We then add the new category, setting and options to `payload/sp/settings/Client
 @@ -64,6 +68,12 @@ enum class RankControl {
      Always,
  };
-
+ 
 +enum class ItemMusic {
 +    None,
 +    DamageOnly,
@@ -204,7 +204,7 @@ We then add the new category, setting and options to `payload/sp/settings/Client
 @@ -154,6 +164,11 @@ struct Helper<ClientSettings::Setting, ClientSettings::Setting::RankControl> {
      using type = SP::ClientSettings::RankControl;
  };
-
+ 
 +template <>
 +struct Helper<ClientSettings::Setting, ClientSettings::Setting::ItemMusic> {
 +    using type = SP::ClientSettings::ItemMusic;
@@ -221,12 +221,12 @@ We then configure the new category and setting in `payload/sp/settings/ClientSet
 
 ```diff
 @@ -6,7 +6,7 @@ namespace SP::ClientSettings {
-
+ 
  const char name[] = "MKW-SP Settings";
-
+ 
 -const u32 categoryMessageIds[] = { 10118, 10119, 10120 };
 +const u32 categoryMessageIds[] = { 10118, 10126, 10119, 10120 };
-
+ 
  const Entry entries[] = {
      [static_cast<u32>(Setting::DriftMode)] = {
 @@ -69,6 +69,16 @@ const Entry entries[] = {
