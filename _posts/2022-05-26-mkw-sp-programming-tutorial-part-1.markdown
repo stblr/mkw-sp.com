@@ -157,6 +157,10 @@ The Broadway is single core, but Mario Kart Wii uses multithreading a lot. This 
 
 [Compiler](https://wiki.tockdom.com/wiki/Compiler) page on Tockdom: lower level details about the ABI, memory management and multithreading.
 
+## Now what?
+
+Part 2 can be found [here]({% post_url 2022-07-08-mkw-sp-programming-tutorial-part-2 %}).
+
 [^revolution]: Revolution (RVL) is the codename of the Wii.
 [^dolphin]: Dolphin (DOL) is the codename of the GameCube.
 [^ntsc-u]: The NTSC-U version of the StaticR.rel has many weird reorderings for some unknown reason.
